@@ -1,0 +1,99 @@
+.admin-dashboard {
+  background-color: aquamarine;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.admin-dashboard h1 {
+  color: #333;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+  margin-bottom: 30px;
+}
+
+.toggle-btn {
+  background-color: #e93bd5;
+  color: white;
+  padding: 15px 40px; 
+  border: none;
+  border-radius: 12px;
+  font-size: 25px; 
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #e8a3d8;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+}
+
+.employee-list, .leave-requests {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.employee-list ul, .leave-requests ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.employee-list li, .leave-requests li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.employee-list li:last-child, .leave-requests li:last-child {
+  border-bottom: none;
+}
+
+ul li span {
+  font-weight: bold;
+  color: #333;
+}
+
+li .button-group {
+  display: flex;
+  gap: 10px;
+}
+
+ul {
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+button {
+  margin-left: 15px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5e3ddf;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #9097e7;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+}

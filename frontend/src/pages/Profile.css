@@ -1,0 +1,91 @@
+body {
+    background-color: #a2caf2; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+  }
+  
+  .dashboard-container {
+    text-align: center !important;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color:aquamarine; 
+    min-height: 80vh;
+  }
+  
+  h1 {
+    color: #00070e; 
+  }
+
+  h2 {
+    color: #00070e; 
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s; 
+  }
+  
+  li:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  input[type="date"], input[type="number"], input[type="text"], input[type="email"] {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s; 
+  }
+  
+  input[type="date"]:focus, input[type="number"]:focus, input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #0056b3; 
+  }
+  
+  .button {
+    padding: 20px 25px; 
+    background-color: #ee32bf; 
+    font-size: larger;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s; 
+  }
+  
+  button:hover {
+    background-color: #cfe6eb; 
+  }
+  
+  .notification {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .notification.success {
+    background-color: #28a745; 
+  }
+  
+  .notification.error {
+    background-color: #dc3545; 
+  }
+  
+  .action-btn {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  

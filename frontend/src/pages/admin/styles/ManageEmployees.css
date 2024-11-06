@@ -1,0 +1,131 @@
+.manage-employees {
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: large;
+}
+
+.manage-employees h2 {
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.manage-employees h3 {
+  margin-top: 5%;
+  margin-left: 1%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.manage-employees form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.manage-employees input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.manage-employees button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+}
+
+.manage-employees button:hover {
+    background-color: #0056b3;
+}
+
+.manage-employees ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.manage-employees li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.manage-employees input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; 
+}
+
+.manage-employees input[type="text"] {
+    margin-top: 20px; 
+}
+
+.button-container {
+    display: flex; 
+    margin-top: 1px; 
+  }
+  
+  .button-container button {
+    margin-right: 30px; 
+    padding: 20px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .button-container button:last-child {
+    margin-right: 0; 
+  }
+  
+  .button-container button:hover {
+    background-color: #0f6fd5; 
+    color: white; 
+  }
+
+  .button-column {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .edit-button {
+    background-color: rgb(8, 173, 74) !important;
+  }
+
+  .delete-button {
+    background-color: red !important;
+  }
+
+  .back-to-dashboard {
+    background-color: #34659e !important;  
+  }
+
+  .notification {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: rgb(19, 213, 25);
+    font-weight: bold;
+  }
+  
+  .notification.success {
+    background-color: green; 
+  }
+  
+  .notification.error {
+    background-color: red; 
+  }
+  
+  

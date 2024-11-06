@@ -1,0 +1,83 @@
+.manage-leave {
+    padding: 20px;
+    background-color: aquamarine;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.manage-leave h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.leave-request {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leave-request .status {
+    font-weight: bold;
+}
+
+.status.approved {
+    color: green;
+  }
+  
+.status.rejected {
+    color: red;
+}
+
+.status.pending {
+    color: orange;
+}
+
+.manage-leave p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.approve {
+    background-color: #28a745; 
+    color: white;
+}
+
+.approve:hover {
+    background-color: #218838; 
+}
+
+.reject {
+    background-color: #dc3545; 
+    color: white;
+}
+
+.reject:hover {
+    background-color: #c82333; 
+}
+
+
+.li {
+    list-style-type: none;
+}

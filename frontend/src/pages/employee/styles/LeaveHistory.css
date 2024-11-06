@@ -1,0 +1,76 @@
+.leave-history-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .leave-history-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .leave-item {
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  
+  .leave-history-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-history-container th,
+  .leave-history-container td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .leave-history-container th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .leave-history-container tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .leave-history-container .status {
+    font-weight: bold;
+  }
+  
+  .leave-history-container .pending {
+    color: orange;
+  }
+  
+  .leave-history-container .approved {
+    color: rgb(54, 176, 54);
+  }
+  
+  .leave-history-container .rejected {
+    color: red;
+  }
+  
+  .leave-history-container p {
+    text-align: center;
+    color: #6c757d;
+    margin-top: 20px;
+  }
+
+  .back-to-dashboard {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(44, 220, 135);
+    cursor: pointer;
+  }
