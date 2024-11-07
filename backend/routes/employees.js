@@ -21,7 +21,7 @@ router.post('/add', async (req, res) => {
       password,
       position,
       salary,
-      role: 'employee',
+      role,
     });
 
     await newUser.save();
